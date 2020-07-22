@@ -1,0 +1,59 @@
+@media only screen and (max-width:1200px)
+{
+    .block-customer-login {       
+    		width: 400px;            
+			}    
+    .block-customer-login  .sign-in {
+                padding: 25% 25px;
+            background: #fff;
+}
+    .block-customer-login  .sign-up {
+           padding: 20% 25px;
+            background: #fff;
+}
+    
+  	
+}
+@media only screen and (max-width:992px)
+{
+    .block-customer-login  .sign-in {
+            padding: 20% 25px;
+            background: #fff;
+                                }
+ 
+     .block-customer-login  .sign-up {
+           padding: 15% 25px;
+            background: #fff;
+                  }
+   
+   
+    
+    
+}  
+
+@media only screen and (max-width:768px)
+{
+      
+}
+@media only screen and (max-width:480px)
+{
+    .block-customer-login {
+            width: 100%;
+                }
+    .block-customer-login .common-form.sign-in {
+                padding: 20% 30px;   
+                 }
+    .block-customer-login .common-form.sign-up {
+                padding: 5% 30px;   
+                 }
+                 .block-customer-login .social {
+                    padding: 15px 0;
+                    
+                }
+  
+
+  
+    
+   
+}
+    

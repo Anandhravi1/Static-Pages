@@ -1,0 +1,42 @@
+/**********  contatct us *********/
+
+.contact-form .form-control {
+    border: 0;
+    box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.form-group input.wpcf7-form-control {
+    padding-left: 15px;
+    padding-right: 0;
+}
+
+.form-group input.wpcf7-form-control,
+.form-group select.wpcf7-form-control {
+    height: 50px;
+}
+
+.contact-form .form-group:not(.checkbox) label {
+    position: relative;
+    color: #000;
+    top: 0;
+    font-size: 12px;
+}
+
+.contact-form .wpcf7-form-control-wrap::before {
+    position: absolute;
+    content: '';
+    width: 2px;
+    height: 0;
+    left: 0;
+    transition: height 0.25s ease;
+    background: #000;
+}
+
+.contact-form .focused .wpcf7-form-control-wrap::before {
+    height: 100%;
+}
+
+.contact-form .error .wpcf7-form-control-wrap::before {
+    height: 100%;
+    background: red;
+}
